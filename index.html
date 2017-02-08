@@ -1,0 +1,411 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+      <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <img class="android-logo-image1" src="images/re_koreatech_likelion_logo.png">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+            <!--
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div>
+            -->
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#About">소개</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#Feature">특징</a>
+
+
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#Apply">지원</a>
+                
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#Plus">추가 정보</a>
+            </nav>
+          </div>
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/likelion_logo_b.png">
+          </span>
+            <!--
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+-->
+        </div>
+      </div>
+<!--
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/likelion_logo_w.png">
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">aaa</a>
+          <a class="mdl-navigation__link" href="">Tablets</a>
+          <a class="mdl-navigation__link" href="">Wear</a>
+          <a class="mdl-navigation__link" href="">TV</a>
+          <a class="mdl-navigation__link" href="">Auto</a>
+          <a class="mdl-navigation__link" href="">One</a>
+          <a class="mdl-navigation__link" href="">Play</a>
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Versions</span>
+          <a class="mdl-navigation__link" href="">Lollipop 5.0</a>
+          <a class="mdl-navigation__link" href="">KitKat 4.4</a>
+          <a class="mdl-navigation__link" href="">Jelly Bean 4.3</a>
+          <a class="mdl-navigation__link" href="">Android history</a>
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Resources</span>
+          <a class="mdl-navigation__link" href="">Official blog</a>
+          <a class="mdl-navigation__link" href="">Android on Google+</a>
+          <a class="mdl-navigation__link" href="">Android on Twitter</a>
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">지원</span>
+          <a class="mdl-navigation__link" href="">자소설닷컴</a>
+        </nav>
+      </div>
+        -->
+
+      <div class="android-content mdl-layout__content" >
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan"></div>
+          <div class="logo-font android-sub-slogan"></div>
+          <div class="logo-font android-create-character">
+
+          </div>
+<!--
+          <a href="#screens">
+            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+              <i class="material-icons">expand_more</i>
+            </button>
+          </a>
+-->
+        </div>
+        <div class="android-screen-section mdl-typography--text-center" id="About">
+            
+            
+            
+            
+            
+            
+            
+            
+          <a name="screens"></a>
+            <div class="embed-container">
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flikelion.net%2Fvideos%2F1144400188918109%2F&show_text=0&width=1120"
+                    style="border:none;overflow:hidden;width:100%" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"
+                    onLoad="setIFrameHeight(this)"></iframe>
+                </div>
+            <div class="android-customized-section-text">
+            <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">멋쟁이 사자처럼</div>
+            <p class="mdl-typography--font-light aa">
+              '멋쟁이 사자처럼'은 이두희씨의 진두지휘로 만들어진 비전공자를 위한 쉽고 빠른 웹서비스를 제작할 수 있게 도와주는 프로그래밍 전국 연합동아리입니다.<br><br>
+멋쟁이사자처럼 X 한국기술교육대(이하 멋사한)는 
+4기부터 출범한 한국기술교육대 동아리로, 이번엔 5기 학생들과 함께 만들어갑니다.
+              <br>
+            </p>
+          </div>
+            <!--
+          <div class="android-screens">
+            <div class="android-wear android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/wear-silver-on.png">
+                <img class="android-screen-image" src="images/wear-black-on.png">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android Wear</a>
+            </div>
+            <div class="android-phone android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/nexus6-on.jpg">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Phones</a>
+            </div>
+            <div class="android-tablet android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/nexus9-on.jpg">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Tablets</a>
+            </div>
+            <div class="android-tv android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/tv-on.jpg">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android TV</a>
+            </div>
+            <div class="android-auto android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/auto-on.jpg">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase mdl-typography--text-left" href="">Coming Soon: Android Auto</a>
+            </div>
+          </div>
+            -->
+        </div>
+          
+          
+          
+          <div class="android-more-section" id="Feature">
+          <div class="android-section-title mdl-typography--display-1-color-contrast">멋쟁이 사자처럼 특징</div>
+          <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell---col mdl-cell--4-col-tablet mdl-cell--3-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/f_1.jpg">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">전공자 & 비전공자</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">전공자 비전공자 불문하고 프로그래밍에 대한 열정만 있다면 OK!</span>
+              </div>
+
+            </div>
+
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--3-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/front_end.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">HTML & CSS</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">자신만의 웹페이지를
+멋지게 꾸며보자!</span>
+              </div>
+
+            </div>
+
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--3-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/rubyonrails.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">RUBY ON RAILS</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">자신이 원하는대로
+기능을 구현해보자!</span>
+              </div>
+
+            </div>
+
+            
+          </div>
+        </div>
+          
+        <div class="android-wear-section" id = "Apply">
+          <div class="android-wear-band">
+            <div class="android-wear-band-text">
+              <div class="mdl-typography--display-2 mdl-typography--font-thin">멋사한 5기를 모집합니다!</div>
+              <p class="mdl-typography--headline mdl-typography--font-thin">
+                  <br>
+                서류접수 : 2월 25일(수) ~ 3월 10일(금)<br>
+                  서류심사 및 면접 : 3월 11일(토) ~ 3월 14일(화)<br>
+                  최종발표 : 3월 15일(수)<br>
+                  전체 OT : 3월 18일(토)
+              </p>
+              <p>
+                <a class="mdl-typography--font-regular mdl-typography--text-uppercase android-alt-link" href="http://jasoseol.com/">
+                  서류접수하러 가기&nbsp;<i class="material-icons">chevron_right</i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+          
+          <!--
+        <div class="android-customized-section">
+          <div class="android-customized-section-text">
+            <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customised by you, for you</div>
+            <p class="mdl-typography--font-light">
+              Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
+              <br>
+              <a href="" class="android-link mdl-typography--font-light">Customise your phone</a>
+            </p>
+          </div>
+          <div class="android-customized-section-image"></div>
+        </div>
+          -->
+          
+        <div class="android-more-section" id = "Plus">
+          <div class="android-section-title mdl-typography--display-1-color-contrast">더 많은 정보를 얻으시려면</div>
+          <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/f_k.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">멋사한 Facebook 페이지</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">멋쟁이사자처럼 한국기술교육대 페이스북 페이지로, 멋사 한기대 동아리에 대한 정보 및 공지는 여기에 올라옵니다.</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-at-%ED%95%9C%EA%B5%AD%EA%B8%B0%EC%88%A0%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90-674110016061553/">
+                   멋사한 페이지로 이동
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/f_o.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">멋사 공식 Facebook 페이지</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">멋쟁이사자처럼 중앙운영진에서 관리하는 Facebook 페이지로, 전체 동아리 공지는 이 페이지에 올라옵니다.</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/likelion.net/">
+                   멋사 공식 페이지로 이동
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/f_s.jpg">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">멋사 공식 사이트</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">멋쟁이사자처럼 공식 사이트입니다. 프로그래밍 연합 동아리 "멋쟁이사자처럼"에 대해 알고싶으시다면 이 사이트를 참고해보세요.</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="http://www.likelion.net/">
+                   멋사 공식 사이트로 이동
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+<!--
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/more-from-3.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Millions to choose from</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Hail a taxi, find a recipe, run through a temple – Google Play has all the apps and games that let you make your Android device uniquely yours.</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   Find apps
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+              -->
+          </div>
+        </div>
+
+        <footer class="android-footer mdl-mega-footer">
+          <div class="mdl-mega-footer--top-section">
+
+            <div class="mdl-mega-footer--right-section">
+              <a class="mdl-typography--font-light" href="#top">
+                Back to Top
+                <i class="material-icons">expand_less</i>
+              </a>
+            </div>
+          </div>
+
+          <div class="mdl-mega-footer--middle-section">
+            <p class="mdl-typography--font-light">Developed by likelion at Koreatech</p>
+          </div>
+
+            <!--
+          <div class="mdl-mega-footer--bottom-section">
+            <a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
+              Versions
+              <i class="material-icons">arrow_drop_up</i>
+            </a>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
+              <li class="mdl-menu__item">5.0 Lollipop</li>
+              <li class="mdl-menu__item">4.4 KitKat</li>
+              <li class="mdl-menu__item">4.3 Jelly Bean</li>
+              <li class="mdl-menu__item">Android History</li>
+            </ul>
+            <a class="android-link android-link-menu mdl-typography--font-light" id="developers-dropdown">
+              For Developers
+              <i class="material-icons">arrow_drop_up</i>
+            </a>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
+              <li class="mdl-menu__item">App developer resources</li>
+              <li class="mdl-menu__item">Android Open Source Project</li>
+              <li class="mdl-menu__item">Android SDK</li>
+              <li class="mdl-menu__item">Android for Work</li>
+            </ul>
+            <a class="android-link mdl-typography--font-light" href="">Blog</a>
+            <a class="android-link mdl-typography--font-light" href="">Privacy Policy</a>
+          </div>
+            -->
+
+        </footer>
+      </div>
+    </div>
+    
+  </body>
+</html>
